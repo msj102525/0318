@@ -14,8 +14,10 @@ function autoGallery(){
     console.log(`gap -> ${gap}, goto -> ${goto}`);
 
     gallery.style.left=goto;
+    gallery.style.transition='all 0.5s'
 
     if(i>=galleryLi.length-1) i=-1;
+    
 }
 setInterval(autoGallery,2000);
 // (function(){

@@ -24,7 +24,7 @@ function autoGallery(){
     // console.log(`autoGallery -> i ${i}, gap ${gap}, goto ${goto}`);
 
     gallery.style.left=goto;
-    gallery.style.transition='all 0.5s';
+    gallery.style.transition='all 0.5s ease-in-out';
 
 
     // li의 마지막 번지를 보이고 다시 처음으로 돌아가서
