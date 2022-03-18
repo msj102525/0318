@@ -14,7 +14,7 @@ function autoGallery(){
     console.log(`gap -> ${gap}, goto -> ${goto}`);
 
     gallery.style.left=goto;
-    gallery.style.transition='all 0.5s'
+    gallery.style.transition='all 0.5s ease-in-out';
 
     if(i>=galleryLi.length-1) i=-1;
     
